@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Test</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+
+    }
+
+    .judul {
+      font-family: "04b 30";
+      font-size: 3rem;
+    }
+
+    .navbar {
+      background-color: #3b3b3b;
+    }
+
+    .d-flex>.btn {
+      color: rgb(255, 255, 255);
+      border: white;
+    }
+
+    .genre h1:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+      opacity: 1;
+      background-color: #3b3b3b;
+    }
+
+    .genre h1 {
+      font-size: 2rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .genre {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      opacity: 1;
+      font-family: "unispace";
+
+    }
+
+    .navbar {
+      font-family: "unispace";
+      font-size: 1.5rem;
+    }
+
+    .cari {
+      border: blue;
+    }
+    .user > img {
+      border-radius: 50px;
+    }
+  </style>
+</head>
+<body style="background-color: #111111">
+  <div class="container-fluid"
+    style="background-image: url('header.png') ; background-size: cover; background-position: center; height: 100PX">
+    <img src="Title.png" alt="logo" style="width: 450px; height: 90px" class="inline-box align-left" />
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li>
+            <a class="nav-link" href="Index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="kategori.html">Kategori</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feed.html">Berita</a>
+          </li>
+        </ul>
+        <form class="cari d-flex align-item-left" role="search">
+          <input class="form-control me-2 primary" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary border me-3" type="submit">Search</button>
+        </form>
+        <a class="user navbar-brand" href="profile.html">
+          <img src="kulo.png" alt="Bootstrap" width="40" height="40" class="d-inline-block align-text-right">
+        </a>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <div class="genre container-fluid d-flex align-items-centers" id="">
+      <h1 class="btn">Action</h1>
+      <h1 class="btn">Adventure</h1>
+      <h1 class="btn">Comedy</h1>
+      <h1 class="btn">Drama</h1>
+      <h1 class="btn">Fantasy</h1>
+      <h1 class="btn">Horror</h1>
+      <h1 class="btn">Mystery</h1>
+      <h1 class="btn">Romance</h1>
+      <h1 class="btn">Sci-Fi</h1>
+      <h1 class="btn">Thriller</h1>
+      <h1 class="btn">Anime</h1>
+      <h1 class="btn">Documentary</h1>
+      <h1 class="btn">Family</h1>
+      <h1 class="btn">History</h1>
+      <h1 class="btn">Music</h1>
+      <h1 class="btn">Sport</h1>
+      <h1 class="btn">War</h1>
+      <h1 class="btn">Western</h1>
+      <h1 class="btn">Souls-like</h1>
+      <h1 class="btn">Education</h1>
+      <h1 class="btn">Simulator</h1>
+      <h1 class="btn">RPG</h1>
+      <h1 class="btn">JPRG</h1>
+      <h1 class="btn">Singleplayer</h1>
+      <h1 class="btn">Multiplayer</h1>
+      <h1 class="btn">Hack And Slash</h1>
+      <h1 class="btn">MMORPG</h1>
+      <h1 class="btn">Mediaval</h1>
+      <h1 class="btn">Fighting</h1>
+      <h1 class="btn">First-Person-Shooter</h1>
+      <h1 class="btn">3D</h1>
+  </div>
+  </body>
+</html>
